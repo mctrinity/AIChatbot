@@ -1,1 +1,72 @@
+# Ignore user-specific & system files
+.vscode/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.psess
+*.pdb
+*.appx
+*.appxbundle
+*.appxupload
+*.cer
+*.vsconfig
+.vs/
+.idea/
+.DS_Store
+
+# Ignore build output
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+*.app
+
+# Ignore package dependencies
+packages/
+node_modules/
+dist/
+bower_components/
+
+# Ignore .NET logs and temp files
+*.log
+*.cache
+*.tmp
+*.lock.json
+*.coverage
+*.testlog
+TestResults/
+*.csproj.user
+project.lock.json
+project.assets.json
+dotnet-sdk.json
+sdk-versions.txt
+
+# Ignore environment files (for security)
 .env
+.env.local
+secrets.json
+
+# Ignore Rider & JetBrains IDE settings
+.idea/
+*.iml
+*.sln.iml
+*.ipr
+*.iws
+
+# Ignore Visual Studio Code settings
+.vscode/
+.history/
+*.code-workspace
+
+# Ignore NuGet packages & tools
+.nuget/
+*.nupkg
+*.snupkg
+NuGet.Config
+NuGetScratch/
